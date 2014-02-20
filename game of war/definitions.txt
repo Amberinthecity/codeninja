@@ -1,0 +1,57 @@
+Game of War Ubiquitous Language
+
+Deck of Playing Cards - 52 Cards with each possible combination of Suit and Rank.
+
+Deck - A collection of zero or more Playing Cards.
+
+Playing Card (Card) - A object with an immutable single Rank and an immutable single Suit.  A Playing Card has a state that is either Face Up or Face Down.
+
+Face Up - One of two possible states of a Playing Card in which the Rank and Suit are  visible to all Players.
+
+Face Down - One of two possible states of a Playing Card in which the Rank and Suit are visible to no Players.
+
+Game of War - The set of all Card Game Actions that result in a Victory for one of the competing card game Players.
+
+Battle - A possible outcome of a Skirmish when two Cards with the same Rank are Played as a Skirmish. Each Player Adds 3 Bounties then Skirmishes again. The Skirmish is resolved as usual.
+
+Add Bounty - The act of a Player taking one card from their Hand and placing it face down in their Bounty.
+
+Bounty - One or more Cards put down by each Player when there is a Battle
+
+Player Spoils - Cards that have been Played or Added as Bounties during a Turn by a Player that will be moved to the Discard Pile of the Player who Wins the Skirmish
+
+Skirmish - The comparison of the Rank of the most recent Cards to be Played by each Player and are in each Player's Spoils. There are three possible Resolutions of a Skirmish: Winner, Loser, and Battle.
+
+Player - A person taking part in a Game of War
+
+Player Name - The first name of a Player
+
+Score - The total number of Cards in a Player's Hand added to the total number of Cards in a Player's Discard Pile
+
+Hand - The Deck of Face Down Cards from which a Player's sources Cards when Playing a Card or Adding a Bounty
+
+Discard Pile - The collection of Cards a Player's has gained as Spoils by Winning Skirmishes.
+
+Turn - A Turn begins with all Players having no Spoils, continues through at least one Skirmish until a Resolution has occurred.
+
+Resolution - One of three possible outcomes of a Skirmish: Win, Lose, and Battle
+
+Discard - Putting Cards that are in all Player's Bounties face up in a the Discard Pile of the Winning Player of a Skirmish
+
+Winner - The single Player who Wins a Skirmish
+
+Loser - One or more Players who Lose a Skirmish
+
+Re-hand - The action that occurs when a Player needs to Play a Card, has no Cards in their Hand, but has Cards in their Discard Pile. The Discard Pile is Shuffled and then becomes the new Hand. The Game of War continues with Players Playing a Card from new Hand. Re-handing can occur anytime a Player is required to Play a Card or Add a Bounty.
+
+Victory - The end of a Game of War wherein a Player has all of the Cards in his or her Hand or Discard Pile. The other Player simultaneously is Defeated. (see: Defeat)
+
+Defeat - The end of a Game of War wherein a Player has no Cards in his or her Hand or Discard Pile. The other Player simultaneously achieves a Victory. (see: Victory)
+
+Final Skirmish - A Skirmish during which one or more Players have a Score of zero.
+
+Play a Card - Move a Card from a Player's Hand to that Player's Spoils face up.
+
+Rank - One of the following { Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King }
+
+Suit - One of the following { Clubs, Diamonds, Spades, Hearts }
